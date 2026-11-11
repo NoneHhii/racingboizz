@@ -1,0 +1,2154 @@
+{
+  "vehicles": [
+    {
+      "id": "police",
+      "name": "Police Interceptor",
+      "category": "priority",
+      "frames": [
+        "/vehicles/police_north_0.png",
+        "/vehicles/police_north_1.png",
+        "/vehicles/police_north_2.png",
+        "/vehicles/police_north_3.png",
+        "/vehicles/police_north_4.png",
+        "/vehicles/police_north_5.png",
+        "/vehicles/police_north_6.png",
+        "/vehicles/police_north_7.png",
+        "/vehicles/police_north_8.png",
+        "/vehicles/police_north_9.png",
+        "/vehicles/police_north_10.png",
+        "/vehicles/police_north_11.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 72
+      },
+      "speedMultiplier": 1.35,
+      "isSpecial": true,
+      "behavior": "police"
+    },
+    {
+      "id": "ambulance",
+      "name": "Ambulance",
+      "category": "priority",
+      "frames": [
+        "/vehicles/ambulance_north_0.png",
+        "/vehicles/ambulance_north_1.png",
+        "/vehicles/ambulance_north_2.png",
+        "/vehicles/ambulance_north_3.png",
+        "/vehicles/ambulance_north_4.png",
+        "/vehicles/ambulance_north_5.png",
+        "/vehicles/ambulance_north_6.png",
+        "/vehicles/ambulance_north_7.png",
+        "/vehicles/ambulance_north_8.png",
+        "/vehicles/ambulance_north_9.png",
+        "/vehicles/ambulance_north_10.png",
+        "/vehicles/ambulance_north_11.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 46,
+        "h": 88
+      },
+      "speedMultiplier": 1.25,
+      "isSpecial": true,
+      "behavior": "ambulance"
+    },
+    {
+      "id": "taxi",
+      "name": "Crazy Taxi",
+      "category": "taxi",
+      "frames": [
+        "/vehicles/taxi_north.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 70
+      },
+      "speedMultiplier": 1.15,
+      "isSpecial": true,
+      "behavior": "taxi"
+    },
+    {
+      "id": "sport_red",
+      "name": "Red SPORT",
+      "category": "speedster",
+      "frames": [
+        "/vehicles/sport_red.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 72
+      },
+      "speedMultiplier": 1.2,
+      "isSpecial": true,
+      "behavior": "speeder",
+      "color": "red"
+    },
+    {
+      "id": "sport_blue",
+      "name": "Blue SPORT",
+      "category": "speedster",
+      "frames": [
+        "/vehicles/sport_blue.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 72
+      },
+      "speedMultiplier": 1.2,
+      "isSpecial": true,
+      "behavior": "speeder",
+      "color": "blue"
+    },
+    {
+      "id": "sport_yellow",
+      "name": "Yellow SPORT",
+      "category": "speedster",
+      "frames": [
+        "/vehicles/sport_yellow.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 72
+      },
+      "speedMultiplier": 1.2,
+      "isSpecial": true,
+      "behavior": "speeder",
+      "color": "yellow"
+    },
+    {
+      "id": "sport_black",
+      "name": "Black SPORT",
+      "category": "speedster",
+      "frames": [
+        "/vehicles/sport_black.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 72
+      },
+      "speedMultiplier": 1.2,
+      "isSpecial": true,
+      "behavior": "speeder",
+      "color": "black"
+    },
+    {
+      "id": "sport_white",
+      "name": "White SPORT",
+      "category": "speedster",
+      "frames": [
+        "/vehicles/sport_white.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 72
+      },
+      "speedMultiplier": 1.2,
+      "isSpecial": true,
+      "behavior": "speeder",
+      "color": "white"
+    },
+    {
+      "id": "sport_green",
+      "name": "Green SPORT",
+      "category": "speedster",
+      "frames": [
+        "/vehicles/sport_green.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 72
+      },
+      "speedMultiplier": 1.2,
+      "isSpecial": true,
+      "behavior": "speeder",
+      "color": "green"
+    },
+    {
+      "id": "supercar_red",
+      "name": "Red SUPERCAR",
+      "category": "speedster",
+      "frames": [
+        "/vehicles/supercar_red.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 74
+      },
+      "speedMultiplier": 1.3,
+      "isSpecial": true,
+      "behavior": "speeder",
+      "color": "red"
+    },
+    {
+      "id": "supercar_blue",
+      "name": "Blue SUPERCAR",
+      "category": "speedster",
+      "frames": [
+        "/vehicles/supercar_blue.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 74
+      },
+      "speedMultiplier": 1.3,
+      "isSpecial": true,
+      "behavior": "speeder",
+      "color": "blue"
+    },
+    {
+      "id": "supercar_yellow",
+      "name": "Yellow SUPERCAR",
+      "category": "speedster",
+      "frames": [
+        "/vehicles/supercar_yellow.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 74
+      },
+      "speedMultiplier": 1.3,
+      "isSpecial": true,
+      "behavior": "speeder",
+      "color": "yellow"
+    },
+    {
+      "id": "supercar_black",
+      "name": "Black SUPERCAR",
+      "category": "speedster",
+      "frames": [
+        "/vehicles/supercar_black.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 74
+      },
+      "speedMultiplier": 1.3,
+      "isSpecial": true,
+      "behavior": "speeder",
+      "color": "black"
+    },
+    {
+      "id": "supercar_white",
+      "name": "White SUPERCAR",
+      "category": "speedster",
+      "frames": [
+        "/vehicles/supercar_white.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 74
+      },
+      "speedMultiplier": 1.3,
+      "isSpecial": true,
+      "behavior": "speeder",
+      "color": "white"
+    },
+    {
+      "id": "supercar_green",
+      "name": "Green SUPERCAR",
+      "category": "speedster",
+      "frames": [
+        "/vehicles/supercar_green.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 74
+      },
+      "speedMultiplier": 1.3,
+      "isSpecial": true,
+      "behavior": "speeder",
+      "color": "green"
+    },
+    {
+      "id": "sedan_red",
+      "name": "Red SEDAN",
+      "category": "normal",
+      "frames": [
+        "/vehicles/sedan_red.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 70
+      },
+      "speedMultiplier": 1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "red"
+    },
+    {
+      "id": "sedan_blue",
+      "name": "Blue SEDAN",
+      "category": "normal",
+      "frames": [
+        "/vehicles/sedan_blue.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 70
+      },
+      "speedMultiplier": 1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "blue"
+    },
+    {
+      "id": "sedan_yellow",
+      "name": "Yellow SEDAN",
+      "category": "normal",
+      "frames": [
+        "/vehicles/sedan_yellow.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 70
+      },
+      "speedMultiplier": 1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "yellow"
+    },
+    {
+      "id": "sedan_black",
+      "name": "Black SEDAN",
+      "category": "normal",
+      "frames": [
+        "/vehicles/sedan_black.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 70
+      },
+      "speedMultiplier": 1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "black"
+    },
+    {
+      "id": "sedan_white",
+      "name": "White SEDAN",
+      "category": "normal",
+      "frames": [
+        "/vehicles/sedan_white.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 70
+      },
+      "speedMultiplier": 1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "white"
+    },
+    {
+      "id": "sedan_green",
+      "name": "Green SEDAN",
+      "category": "normal",
+      "frames": [
+        "/vehicles/sedan_green.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 70
+      },
+      "speedMultiplier": 1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "green"
+    },
+    {
+      "id": "civic_red",
+      "name": "Red CIVIC",
+      "category": "normal",
+      "frames": [
+        "/vehicles/civic_red.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 68
+      },
+      "speedMultiplier": 1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "red"
+    },
+    {
+      "id": "civic_blue",
+      "name": "Blue CIVIC",
+      "category": "normal",
+      "frames": [
+        "/vehicles/civic_blue.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 68
+      },
+      "speedMultiplier": 1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "blue"
+    },
+    {
+      "id": "civic_yellow",
+      "name": "Yellow CIVIC",
+      "category": "normal",
+      "frames": [
+        "/vehicles/civic_yellow.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 68
+      },
+      "speedMultiplier": 1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "yellow"
+    },
+    {
+      "id": "civic_black",
+      "name": "Black CIVIC",
+      "category": "normal",
+      "frames": [
+        "/vehicles/civic_black.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 68
+      },
+      "speedMultiplier": 1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "black"
+    },
+    {
+      "id": "civic_white",
+      "name": "White CIVIC",
+      "category": "normal",
+      "frames": [
+        "/vehicles/civic_white.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 68
+      },
+      "speedMultiplier": 1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "white"
+    },
+    {
+      "id": "civic_green",
+      "name": "Green CIVIC",
+      "category": "normal",
+      "frames": [
+        "/vehicles/civic_green.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 68
+      },
+      "speedMultiplier": 1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "green"
+    },
+    {
+      "id": "coupe_red",
+      "name": "Red COUPE",
+      "category": "normal",
+      "frames": [
+        "/vehicles/coupe_red.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 68
+      },
+      "speedMultiplier": 1.05,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "red"
+    },
+    {
+      "id": "coupe_blue",
+      "name": "Blue COUPE",
+      "category": "normal",
+      "frames": [
+        "/vehicles/coupe_blue.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 68
+      },
+      "speedMultiplier": 1.05,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "blue"
+    },
+    {
+      "id": "coupe_yellow",
+      "name": "Yellow COUPE",
+      "category": "normal",
+      "frames": [
+        "/vehicles/coupe_yellow.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 68
+      },
+      "speedMultiplier": 1.05,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "yellow"
+    },
+    {
+      "id": "coupe_black",
+      "name": "Black COUPE",
+      "category": "normal",
+      "frames": [
+        "/vehicles/coupe_black.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 68
+      },
+      "speedMultiplier": 1.05,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "black"
+    },
+    {
+      "id": "coupe_white",
+      "name": "White COUPE",
+      "category": "normal",
+      "frames": [
+        "/vehicles/coupe_white.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 68
+      },
+      "speedMultiplier": 1.05,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "white"
+    },
+    {
+      "id": "coupe_green",
+      "name": "Green COUPE",
+      "category": "normal",
+      "frames": [
+        "/vehicles/coupe_green.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 68
+      },
+      "speedMultiplier": 1.05,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "green"
+    },
+    {
+      "id": "hatchback_red",
+      "name": "Red HATCHBACK",
+      "category": "normal",
+      "frames": [
+        "/vehicles/hatchback_red.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 64
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "red"
+    },
+    {
+      "id": "hatchback_blue",
+      "name": "Blue HATCHBACK",
+      "category": "normal",
+      "frames": [
+        "/vehicles/hatchback_blue.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 64
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "blue"
+    },
+    {
+      "id": "hatchback_yellow",
+      "name": "Yellow HATCHBACK",
+      "category": "normal",
+      "frames": [
+        "/vehicles/hatchback_yellow.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 64
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "yellow"
+    },
+    {
+      "id": "hatchback_black",
+      "name": "Black HATCHBACK",
+      "category": "normal",
+      "frames": [
+        "/vehicles/hatchback_black.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 64
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "black"
+    },
+    {
+      "id": "hatchback_white",
+      "name": "White HATCHBACK",
+      "category": "normal",
+      "frames": [
+        "/vehicles/hatchback_white.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 64
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "white"
+    },
+    {
+      "id": "hatchback_green",
+      "name": "Green HATCHBACK",
+      "category": "normal",
+      "frames": [
+        "/vehicles/hatchback_green.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 64
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "green"
+    },
+    {
+      "id": "suv_red",
+      "name": "Red SUV",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/suv_red.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 42,
+        "h": 76
+      },
+      "speedMultiplier": 0.98,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "red"
+    },
+    {
+      "id": "suv_blue",
+      "name": "Blue SUV",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/suv_blue.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 42,
+        "h": 76
+      },
+      "speedMultiplier": 0.98,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "blue"
+    },
+    {
+      "id": "suv_yellow",
+      "name": "Yellow SUV",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/suv_yellow.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 42,
+        "h": 76
+      },
+      "speedMultiplier": 0.98,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "yellow"
+    },
+    {
+      "id": "suv_black",
+      "name": "Black SUV",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/suv_black.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 42,
+        "h": 76
+      },
+      "speedMultiplier": 0.98,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "black"
+    },
+    {
+      "id": "suv_white",
+      "name": "White SUV",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/suv_white.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 42,
+        "h": 76
+      },
+      "speedMultiplier": 0.98,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "white"
+    },
+    {
+      "id": "suv_green",
+      "name": "Green SUV",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/suv_green.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 42,
+        "h": 76
+      },
+      "speedMultiplier": 0.98,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "green"
+    },
+    {
+      "id": "pickup_red",
+      "name": "Red PICKUP",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/pickup_red.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 76
+      },
+      "speedMultiplier": 0.96,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "red"
+    },
+    {
+      "id": "pickup_blue",
+      "name": "Blue PICKUP",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/pickup_blue.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 76
+      },
+      "speedMultiplier": 0.96,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "blue"
+    },
+    {
+      "id": "pickup_yellow",
+      "name": "Yellow PICKUP",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/pickup_yellow.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 76
+      },
+      "speedMultiplier": 0.96,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "yellow"
+    },
+    {
+      "id": "pickup_black",
+      "name": "Black PICKUP",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/pickup_black.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 76
+      },
+      "speedMultiplier": 0.96,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "black"
+    },
+    {
+      "id": "pickup_white",
+      "name": "White PICKUP",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/pickup_white.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 76
+      },
+      "speedMultiplier": 0.96,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "white"
+    },
+    {
+      "id": "pickup_green",
+      "name": "Green PICKUP",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/pickup_green.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 76
+      },
+      "speedMultiplier": 0.96,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "green"
+    },
+    {
+      "id": "muscle_red",
+      "name": "Red MUSCLE",
+      "category": "normal",
+      "frames": [
+        "/vehicles/muscle_red.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 74
+      },
+      "speedMultiplier": 1.1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "red"
+    },
+    {
+      "id": "muscle_blue",
+      "name": "Blue MUSCLE",
+      "category": "normal",
+      "frames": [
+        "/vehicles/muscle_blue.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 74
+      },
+      "speedMultiplier": 1.1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "blue"
+    },
+    {
+      "id": "muscle_yellow",
+      "name": "Yellow MUSCLE",
+      "category": "normal",
+      "frames": [
+        "/vehicles/muscle_yellow.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 74
+      },
+      "speedMultiplier": 1.1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "yellow"
+    },
+    {
+      "id": "muscle_black",
+      "name": "Black MUSCLE",
+      "category": "normal",
+      "frames": [
+        "/vehicles/muscle_black.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 74
+      },
+      "speedMultiplier": 1.1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "black"
+    },
+    {
+      "id": "muscle_white",
+      "name": "White MUSCLE",
+      "category": "normal",
+      "frames": [
+        "/vehicles/muscle_white.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 74
+      },
+      "speedMultiplier": 1.1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "white"
+    },
+    {
+      "id": "muscle_green",
+      "name": "Green MUSCLE",
+      "category": "normal",
+      "frames": [
+        "/vehicles/muscle_green.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 74
+      },
+      "speedMultiplier": 1.1,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "green"
+    },
+    {
+      "id": "van_red",
+      "name": "Red VAN",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/van_red.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 76
+      },
+      "speedMultiplier": 0.92,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "red"
+    },
+    {
+      "id": "van_blue",
+      "name": "Blue VAN",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/van_blue.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 76
+      },
+      "speedMultiplier": 0.92,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "blue"
+    },
+    {
+      "id": "van_yellow",
+      "name": "Yellow VAN",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/van_yellow.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 76
+      },
+      "speedMultiplier": 0.92,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "yellow"
+    },
+    {
+      "id": "van_black",
+      "name": "Black VAN",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/van_black.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 76
+      },
+      "speedMultiplier": 0.92,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "black"
+    },
+    {
+      "id": "van_white",
+      "name": "White VAN",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/van_white.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 76
+      },
+      "speedMultiplier": 0.92,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "white"
+    },
+    {
+      "id": "van_green",
+      "name": "Green VAN",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/van_green.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 76
+      },
+      "speedMultiplier": 0.92,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "green"
+    },
+    {
+      "id": "jeep_red",
+      "name": "Red JEEP",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/jeep_red.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 72
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "red"
+    },
+    {
+      "id": "jeep_blue",
+      "name": "Blue JEEP",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/jeep_blue.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 72
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "blue"
+    },
+    {
+      "id": "jeep_yellow",
+      "name": "Yellow JEEP",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/jeep_yellow.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 72
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "yellow"
+    },
+    {
+      "id": "jeep_black",
+      "name": "Black JEEP",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/jeep_black.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 72
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "black"
+    },
+    {
+      "id": "jeep_white",
+      "name": "White JEEP",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/jeep_white.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 72
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "white"
+    },
+    {
+      "id": "jeep_green",
+      "name": "Green JEEP",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/jeep_green.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 72
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "green"
+    },
+    {
+      "id": "minivan_red",
+      "name": "Red MINIVAN",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/minivan_red.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 74
+      },
+      "speedMultiplier": 0.94,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "red"
+    },
+    {
+      "id": "minivan_blue",
+      "name": "Blue MINIVAN",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/minivan_blue.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 74
+      },
+      "speedMultiplier": 0.94,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "blue"
+    },
+    {
+      "id": "minivan_yellow",
+      "name": "Yellow MINIVAN",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/minivan_yellow.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 74
+      },
+      "speedMultiplier": 0.94,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "yellow"
+    },
+    {
+      "id": "minivan_black",
+      "name": "Black MINIVAN",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/minivan_black.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 74
+      },
+      "speedMultiplier": 0.94,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "black"
+    },
+    {
+      "id": "minivan_white",
+      "name": "White MINIVAN",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/minivan_white.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 74
+      },
+      "speedMultiplier": 0.94,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "white"
+    },
+    {
+      "id": "minivan_green",
+      "name": "Green MINIVAN",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/minivan_green.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 40,
+        "h": 74
+      },
+      "speedMultiplier": 0.94,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "green"
+    },
+    {
+      "id": "wagon_red",
+      "name": "Red WAGON",
+      "category": "normal",
+      "frames": [
+        "/vehicles/wagon_red.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 72
+      },
+      "speedMultiplier": 0.97,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "red"
+    },
+    {
+      "id": "wagon_blue",
+      "name": "Blue WAGON",
+      "category": "normal",
+      "frames": [
+        "/vehicles/wagon_blue.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 72
+      },
+      "speedMultiplier": 0.97,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "blue"
+    },
+    {
+      "id": "wagon_yellow",
+      "name": "Yellow WAGON",
+      "category": "normal",
+      "frames": [
+        "/vehicles/wagon_yellow.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 72
+      },
+      "speedMultiplier": 0.97,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "yellow"
+    },
+    {
+      "id": "wagon_black",
+      "name": "Black WAGON",
+      "category": "normal",
+      "frames": [
+        "/vehicles/wagon_black.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 72
+      },
+      "speedMultiplier": 0.97,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "black"
+    },
+    {
+      "id": "wagon_white",
+      "name": "White WAGON",
+      "category": "normal",
+      "frames": [
+        "/vehicles/wagon_white.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 72
+      },
+      "speedMultiplier": 0.97,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "white"
+    },
+    {
+      "id": "wagon_green",
+      "name": "Green WAGON",
+      "category": "normal",
+      "frames": [
+        "/vehicles/wagon_green.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 36,
+        "h": 72
+      },
+      "speedMultiplier": 0.97,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "green"
+    },
+    {
+      "id": "luxury_red",
+      "name": "Red LUXURY",
+      "category": "normal",
+      "frames": [
+        "/vehicles/luxury_red.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 76
+      },
+      "speedMultiplier": 1.05,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "red"
+    },
+    {
+      "id": "luxury_blue",
+      "name": "Blue LUXURY",
+      "category": "normal",
+      "frames": [
+        "/vehicles/luxury_blue.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 76
+      },
+      "speedMultiplier": 1.05,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "blue"
+    },
+    {
+      "id": "luxury_yellow",
+      "name": "Yellow LUXURY",
+      "category": "normal",
+      "frames": [
+        "/vehicles/luxury_yellow.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 76
+      },
+      "speedMultiplier": 1.05,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "yellow"
+    },
+    {
+      "id": "luxury_black",
+      "name": "Black LUXURY",
+      "category": "normal",
+      "frames": [
+        "/vehicles/luxury_black.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 76
+      },
+      "speedMultiplier": 1.05,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "black"
+    },
+    {
+      "id": "luxury_white",
+      "name": "White LUXURY",
+      "category": "normal",
+      "frames": [
+        "/vehicles/luxury_white.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 76
+      },
+      "speedMultiplier": 1.05,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "white"
+    },
+    {
+      "id": "luxury_green",
+      "name": "Green LUXURY",
+      "category": "normal",
+      "frames": [
+        "/vehicles/luxury_green.png"
+      ],
+      "width": 100,
+      "height": 100,
+      "hitbox": {
+        "w": 38,
+        "h": 76
+      },
+      "speedMultiplier": 1.05,
+      "isSpecial": false,
+      "behavior": "normal",
+      "color": "green"
+    },
+    {
+      "id": "box_truck_red",
+      "name": "Red BOX TRUCK",
+      "category": "truck",
+      "frames": [
+        "/vehicles/box_truck_red.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 46,
+        "h": 95
+      },
+      "speedMultiplier": 0.82,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "red"
+    },
+    {
+      "id": "box_truck_blue",
+      "name": "Blue BOX TRUCK",
+      "category": "truck",
+      "frames": [
+        "/vehicles/box_truck_blue.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 46,
+        "h": 95
+      },
+      "speedMultiplier": 0.82,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "blue"
+    },
+    {
+      "id": "box_truck_yellow",
+      "name": "Yellow BOX TRUCK",
+      "category": "truck",
+      "frames": [
+        "/vehicles/box_truck_yellow.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 46,
+        "h": 95
+      },
+      "speedMultiplier": 0.82,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "yellow"
+    },
+    {
+      "id": "box_truck_black",
+      "name": "Black BOX TRUCK",
+      "category": "truck",
+      "frames": [
+        "/vehicles/box_truck_black.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 46,
+        "h": 95
+      },
+      "speedMultiplier": 0.82,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "black"
+    },
+    {
+      "id": "box_truck_white",
+      "name": "White BOX TRUCK",
+      "category": "truck",
+      "frames": [
+        "/vehicles/box_truck_white.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 46,
+        "h": 95
+      },
+      "speedMultiplier": 0.82,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "white"
+    },
+    {
+      "id": "box_truck_green",
+      "name": "Green BOX TRUCK",
+      "category": "truck",
+      "frames": [
+        "/vehicles/box_truck_green.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 46,
+        "h": 95
+      },
+      "speedMultiplier": 0.82,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "green"
+    },
+    {
+      "id": "med_truck_red",
+      "name": "Red MED TRUCK",
+      "category": "truck",
+      "frames": [
+        "/vehicles/med_truck_red.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 48,
+        "h": 96
+      },
+      "speedMultiplier": 0.8,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "red"
+    },
+    {
+      "id": "med_truck_blue",
+      "name": "Blue MED TRUCK",
+      "category": "truck",
+      "frames": [
+        "/vehicles/med_truck_blue.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 48,
+        "h": 96
+      },
+      "speedMultiplier": 0.8,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "blue"
+    },
+    {
+      "id": "med_truck_yellow",
+      "name": "Yellow MED TRUCK",
+      "category": "truck",
+      "frames": [
+        "/vehicles/med_truck_yellow.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 48,
+        "h": 96
+      },
+      "speedMultiplier": 0.8,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "yellow"
+    },
+    {
+      "id": "med_truck_black",
+      "name": "Black MED TRUCK",
+      "category": "truck",
+      "frames": [
+        "/vehicles/med_truck_black.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 48,
+        "h": 96
+      },
+      "speedMultiplier": 0.8,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "black"
+    },
+    {
+      "id": "med_truck_white",
+      "name": "White MED TRUCK",
+      "category": "truck",
+      "frames": [
+        "/vehicles/med_truck_white.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 48,
+        "h": 96
+      },
+      "speedMultiplier": 0.8,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "white"
+    },
+    {
+      "id": "med_truck_green",
+      "name": "Green MED TRUCK",
+      "category": "truck",
+      "frames": [
+        "/vehicles/med_truck_green.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 48,
+        "h": 96
+      },
+      "speedMultiplier": 0.8,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "green"
+    },
+    {
+      "id": "bus_red",
+      "name": "Red BUS",
+      "category": "bus",
+      "frames": [
+        "/vehicles/bus_red.png"
+      ],
+      "width": 210,
+      "height": 210,
+      "hitbox": {
+        "w": 50,
+        "h": 140
+      },
+      "speedMultiplier": 0.78,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "red"
+    },
+    {
+      "id": "bus_blue",
+      "name": "Blue BUS",
+      "category": "bus",
+      "frames": [
+        "/vehicles/bus_blue.png"
+      ],
+      "width": 210,
+      "height": 210,
+      "hitbox": {
+        "w": 50,
+        "h": 140
+      },
+      "speedMultiplier": 0.78,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "blue"
+    },
+    {
+      "id": "bus_yellow",
+      "name": "Yellow BUS",
+      "category": "bus",
+      "frames": [
+        "/vehicles/bus_yellow.png"
+      ],
+      "width": 210,
+      "height": 210,
+      "hitbox": {
+        "w": 50,
+        "h": 140
+      },
+      "speedMultiplier": 0.78,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "yellow"
+    },
+    {
+      "id": "bus_black",
+      "name": "Black BUS",
+      "category": "bus",
+      "frames": [
+        "/vehicles/bus_black.png"
+      ],
+      "width": 210,
+      "height": 210,
+      "hitbox": {
+        "w": 50,
+        "h": 140
+      },
+      "speedMultiplier": 0.78,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "black"
+    },
+    {
+      "id": "bus_white",
+      "name": "White BUS",
+      "category": "bus",
+      "frames": [
+        "/vehicles/bus_white.png"
+      ],
+      "width": 210,
+      "height": 210,
+      "hitbox": {
+        "w": 50,
+        "h": 140
+      },
+      "speedMultiplier": 0.78,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "white"
+    },
+    {
+      "id": "bus_green",
+      "name": "Green BUS",
+      "category": "bus",
+      "frames": [
+        "/vehicles/bus_green.png"
+      ],
+      "width": 210,
+      "height": 210,
+      "hitbox": {
+        "w": 50,
+        "h": 140
+      },
+      "speedMultiplier": 0.78,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "green"
+    },
+    {
+      "id": "limo_red",
+      "name": "Red LIMO",
+      "category": "limo",
+      "frames": [
+        "/vehicles/limo_red.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 40,
+        "h": 110
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "red"
+    },
+    {
+      "id": "limo_blue",
+      "name": "Blue LIMO",
+      "category": "limo",
+      "frames": [
+        "/vehicles/limo_blue.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 40,
+        "h": 110
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "blue"
+    },
+    {
+      "id": "limo_yellow",
+      "name": "Yellow LIMO",
+      "category": "limo",
+      "frames": [
+        "/vehicles/limo_yellow.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 40,
+        "h": 110
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "yellow"
+    },
+    {
+      "id": "limo_black",
+      "name": "Black LIMO",
+      "category": "limo",
+      "frames": [
+        "/vehicles/limo_black.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 40,
+        "h": 110
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "black"
+    },
+    {
+      "id": "limo_white",
+      "name": "White LIMO",
+      "category": "limo",
+      "frames": [
+        "/vehicles/limo_white.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 40,
+        "h": 110
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "white"
+    },
+    {
+      "id": "limo_green",
+      "name": "Green LIMO",
+      "category": "limo",
+      "frames": [
+        "/vehicles/limo_green.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 40,
+        "h": 110
+      },
+      "speedMultiplier": 0.95,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "green"
+    },
+    {
+      "id": "camper_red",
+      "name": "Red CAMPER",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/camper_red.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 46,
+        "h": 90
+      },
+      "speedMultiplier": 0.85,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "red"
+    },
+    {
+      "id": "camper_blue",
+      "name": "Blue CAMPER",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/camper_blue.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 46,
+        "h": 90
+      },
+      "speedMultiplier": 0.85,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "blue"
+    },
+    {
+      "id": "camper_yellow",
+      "name": "Yellow CAMPER",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/camper_yellow.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 46,
+        "h": 90
+      },
+      "speedMultiplier": 0.85,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "yellow"
+    },
+    {
+      "id": "camper_black",
+      "name": "Black CAMPER",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/camper_black.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 46,
+        "h": 90
+      },
+      "speedMultiplier": 0.85,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "black"
+    },
+    {
+      "id": "camper_white",
+      "name": "White CAMPER",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/camper_white.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 46,
+        "h": 90
+      },
+      "speedMultiplier": 0.85,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "white"
+    },
+    {
+      "id": "camper_green",
+      "name": "Green CAMPER",
+      "category": "heavy",
+      "frames": [
+        "/vehicles/camper_green.png"
+      ],
+      "width": 140,
+      "height": 140,
+      "hitbox": {
+        "w": 46,
+        "h": 90
+      },
+      "speedMultiplier": 0.85,
+      "isSpecial": false,
+      "behavior": "truck",
+      "color": "green"
+    }
+  ],
+  "burnt": {
+    "ambulance": "/vehicles/burnt_ambulance.png",
+    "box truck": "/vehicles/burnt_box_truck.png",
+    "bus": "/vehicles/burnt_bus.png",
+    "camper": "/vehicles/burnt_camper.png",
+    "civic": "/vehicles/burnt_civic.png",
+    "coupe": "/vehicles/burnt_coupe.png",
+    "hatchback": "/vehicles/burnt_hatchback.png",
+    "jeep": "/vehicles/burnt_jeep.png",
+    "limo": "/vehicles/burnt_limo.png",
+    "luxury": "/vehicles/burnt_luxury.png",
+    "medium truck": "/vehicles/burnt_medium_truck.png",
+    "micro": "/vehicles/burnt_micro.png",
+    "minivan": "/vehicles/burnt_minivan.png",
+    "musclecar": "/vehicles/burnt_musclecar.png",
+    "pickup": "/vehicles/burnt_pickup.png",
+    "police": "/vehicles/burnt_police.png",
+    "sedan": "/vehicles/burnt_sedan.png",
+    "sport": "/vehicles/burnt_sport.png",
+    "supercar": "/vehicles/burnt_supercar.png",
+    "suv": "/vehicles/burnt_suv.png",
+    "taxi": "/vehicles/burnt_taxi.png",
+    "van": "/vehicles/burnt_van.png",
+    "wagon": "/vehicles/burnt_wagon.png"
+  }
+}
